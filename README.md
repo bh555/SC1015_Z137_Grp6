@@ -41,4 +41,11 @@ Our group's perspective is that earthquakes are costly and disastrous depending 
 -	We use one-hot encoding for all the variables mentioned prior to improve the prediction and performance of our machine learning model – logistic regression – since our categorical variables does not have any ranking for its categorical values.
 -	We have also chosen to use decision tree because 
 
+## Conslusion
+-
+
+## What we have learnt:
+- how to do one-hot encoding, what it is for
+- logistic regression model
+
 ## References:
