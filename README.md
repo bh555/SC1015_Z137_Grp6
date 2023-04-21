@@ -39,6 +39,7 @@ Our group's perspective is that earthquakes are costly and disastrous depending 
     - Variables we are using: ‘foundation_type’, ‘ground_floor_type’, ‘ other_floor_type’, ‘roof_type’, ‘has_superstructure_rc_engineered’, ‘has_superstructure_rc onon engineered’, ‘has_superstructure_bamboo’, ‘has_superstructure_timber’, ‘has_superstructure_cement_mortar_brick’, ‘has_superstructure_mud_mortar_stone’ and ‘age_building’
 ### Machine Learning
 -	We use one-hot encoding for all the variables mentioned prior to improve the prediction and performance of our machine learning model – logistic regression – since our categorical variables does not have any ranking for its categorical values.
+-	Linear regression for 'age_building'
 -	We have also chosen to use decision tree because 
 
 ## Conslusion
