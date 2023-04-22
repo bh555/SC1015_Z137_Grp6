@@ -57,7 +57,7 @@ To conclude, after going through the EDA and Machine Learning step. We believe t
     - Chi Square is a feature selection technique used for categorical data to display the importance of each variable in order of how it influences the response. It checks if the variables have a strong relationship with each other. The chi value tells you the importance of each variable with respect to the other variables. The higher the chi value, the more important the variable is.
 
 - Associations (Dython Library)
-    - It can take categorical data as inputs in order to generate a heatmap. Useful for finding the correlation of categorical data. This can be seen in our EDA step.
+    - It is a data analysis tool which is able to take in categorical data in order to generate a heatmap. Useful for finding the correlation of categorical data, numerical data can be used with this tool as well. You can see this in our notebook under "Preparation for Machine Learning" before Machine Learning step.
 
 - Logistic Regression Model
     - Logistic Regression has the ability to take categorical values as inputs and come up with a regression model to predict categorical values using categorical variables as inputs. In our project, we use one-hot encoded data, which are converted into binary classification data, and used them as predictors to predict damage grade in order to find which material contributes to damage grade.
