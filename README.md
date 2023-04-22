@@ -47,12 +47,18 @@ We hope to be able to apply the findings of our project to help us predict the a
 -	Linear regression for 'age_building'
 -	We have also chosen to use decision tree because 
 
-## Conslusion
+## Conclusion
 -
 
 ## What we have learnt:
-- how to do one-hot encoding, what it is for
-- logistic regression model
+- One-Hot Encoding
+> One-Hot Encoding is a method to help convert categorical data, which are labels, into a binary variable. This helps us to overcome the constraint of needing numerical data in order to use most Machine Learning Models. Despite some Machine Learning models being able to accept categorical data directly, it is difficult to use them with other Machine Learning Models since it hard limits what we can do in the machine learning step. Hence, converting categorical data to a numerical data of binary classification is necessary. 
+
+- Logistic Regression Model
+> Logistic Regression has the ability to take categorical values as inputs and come up with a regression model to predict categorical values using categorical variables as inputs. In our project, we use one-hot encoded data, which are converted into binary classification data, and used them as predictors to predict damage grade in order to find which material contributes to damage grade.
+
+- Random Forest Model
+> Random Forest Model is a classification algorithm that creates many decision trees and combines them into a single tree. It is done so as to compensate for the loss in prediction accuracy and reliability. For our project, through our logistic regression we found that we had weak predictions. Hence, we decided to use Random Forest to aid us in getting a better accurate and reliable prediction. Unfortunately, we did not get a better prediction and we believe that it has to do with not having enough numerical variables which can be used with our prediction.
 
 ## References:
 - https://www.datacamp.com/tutorial/random-forests-classifier-python
