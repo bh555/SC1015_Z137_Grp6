@@ -2,9 +2,12 @@
 For the Mini-Project in SC1015 (Introduction to Data Science and Artificial Intelligence), we performed analysis on the structural data of buildings from the 2015 Gorkha earthquake in Nepal. (http://eq2015.klldev.org/#/download)
 
 ## Problem Definition
-- What structural features of a building contribute to the building's damage grade?
-- Which building materials, that are not earthquake proof, can better withstand an earthquake?
-Our group's perspective is that earthquakes are costly and disastrous depending on the preparations made beforehand. If we do not prepare, it is highly unlikely that we might come out of the disaster unscathed. Through this project, we want to understand the amount of damage caused by the earthquake based on the building material and building structure. We hope to be able to apply the findings of our project to help us predict the amount of damages caused by earthquakes depending on the condition of the building structure in the future. 
+- Which building materials contribute to a building's damage grade?
+- Does building age contribute to a building's damage grade?
+
+Our group's perspective is that earthquakes are costly and disastrous depending on the preparations made beforehand. If we do not prepare, it is highly unlikely that we might come out of the disaster unscathed. Through this project, we want to understand the amount of damage caused by the earthquake based on the building material and building structure. 
+
+We hope to be able to apply the findings of our project to help us predict the amount of damages caused by earthquakes depending on the condition of the building structure in the future. 
 
 ## Members
 -	Caren Tan Xin Yao
@@ -17,7 +20,9 @@ Our group's perspective is that earthquakes are costly and disastrous depending 
       - Data Cleaning and Preparation
       - Exploratory Data Analysis
       - Preparation for Machine Learning
-      - Machine Learning: Logistic Regression (building materials), Linear Regression (building age), Decision Tree
+      - Machine Learning: 
+            - Logistic Regression
+            - Random Forest
 
 ## Notebook Details
 ### Data Cleaning and Preparation
