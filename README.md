@@ -51,24 +51,26 @@ To conclude, after going through the EDA and Machine Learning step. We believe t
 
 ## What we have learnt:
 - One-Hot Encoding
-> One-Hot Encoding is a method to help convert categorical data, which are labels, into a binary variable. Despite some Machine Learning models being able to accept categorical data directly, it is difficult to use categorical data with other Machine Learning Models since there are hard limits to what we can do in the machine learning step. Hence, converting categorical data to a numerical data of binary classification is necessary.
+    - One-Hot Encoding is a method to help convert categorical data, which are labels, into a binary variable. Despite some Machine Learning models being able to accept categorical data directly, it is difficult to use categorical data with other Machine Learning Models since there are hard limits to what we can do in the machine learning step. Hence, converting categorical data to a numerical data of binary classification is necessary.
 
 - Chi-Square Value
-> Chi Square is a feature selection technique used for categorical data to display the importance of each variable in order of how it influences the response. It checks if the variables have a strong relationship with each other. The chi value tells you the importance of each variable with respect to the other variables. The higher the chi value, the more important the variable is.
+    - Chi Square is a feature selection technique used for categorical data to display the importance of each variable in order of how it influences the response. It checks if the variables have a strong relationship with each other. The chi value tells you the importance of each variable with respect to the other variables. The higher the chi value, the more important the variable is.
 
 - Associations (Dython Library)
-> It can take categorical data as inputs in order to generate a heatmap. Useful for finding the correlation of categorical data. This can be seen in our EDA step.
+    - It can take categorical data as inputs in order to generate a heatmap. Useful for finding the correlation of categorical data. This can be seen in our EDA step.
 
 - Logistic Regression Model
-> Logistic Regression has the ability to take categorical values as inputs and come up with a regression model to predict categorical values using categorical variables as inputs. In our project, we use one-hot encoded data, which are converted into binary classification data, and used them as predictors to predict damage grade in order to find which material contributes to damage grade.
+    - Logistic Regression has the ability to take categorical values as inputs and come up with a regression model to predict categorical values using categorical variables as inputs. In our project, we use one-hot encoded data, which are converted into binary classification data, and used them as predictors to predict damage grade in order to find which material contributes to damage grade.
 
 - Random Forest Model
-> Random Forest Model is a classification algorithm that creates many decision trees and combines them into a single tree. It is done so as to compensate for the loss in prediction accuracy and reliability of each decision tree. For our project, through our logistic regression we found that we had weak predictions. Hence, we decided to use Random Forest to aid us in getting a better accurate and reliable prediction. Unfortunately, we did not get a better prediction and we believe that it has to do with not having enough numerical variables which can be used with our prediction.
+    - Random Forest Model is a classification algorithm that creates many decision trees and combines them into a single tree. It is done so as to compensate for the loss in prediction accuracy and reliability of each decision tree. For our project, through our logistic regression we found that we had weak predictions. Hence, we decided to use Random Forest to aid us in getting a better accurate and reliable prediction. Unfortunately, we did not get a better prediction and we believe that it has to do with not having enough numerical variables which can be used with our prediction.
 
 - Graphviz
-> Useful to visualize models that do not have display support in their libraries. E.g. Sklearn Random Forest.
+    - Useful to visualize models that do not have display support in their libraries. E.g. Sklearn Random Forest.
 
 ## References:
+- https://datatofish.com/random-rows-pandas-dataframe/
+- https://stackoverflow.com/questions/65147132/how-to-set-the-hue-order-in-seaborn-plots
 - https://www.datacamp.com/tutorial/random-forests-classifier-python
 - https://www.statology.org/plot-logistic-regression-in-python/
 - https://www.youtube.com/watch?v=v6VJ2RO66Ag
