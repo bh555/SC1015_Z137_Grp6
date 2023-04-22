@@ -35,10 +35,17 @@ Our group's perspective is that earthquake's are costly and disastrous depending
 We removed outlier buildings that featured the age of 999 since they were too distant from the other buildings and might create funny results in the later steps. At the same time, we conducted basic data cleaning procedures on the data set. For example, blanked cells for Damage Grade were fited with the highest damage grade which is "Grade 5". You may take a look at our notebook for how we visualized our dataset and investigated its statistics.
 
 ### Step 2: Exploratory Data Analysis (EDA)
-Our dataset provided a wide range of categorical variables for us to use, but we narrowed it down to a select few by using an data analysis tool called "Associations" to help us see the variables correlation strength with damage grade. Upon doing so, we picked out the relevant variables and grouped them according to their features, such as superstructure material and structural feature. You may refer to the notebook for more information and to see the visualizations.
+Our dataset provided a wide range of categorical variables for us to use, but we narrowed it down to a select few by using an data analysis tool called "Associations" to help us see the variables correlation strength with damage grade. Upon doing so, we picked out the relevant variables and grouped them according to their features. The names of the two groups are "Building Foundation" Set and "Superstructure Material" Set. You may refer to the notebook for more information and to see the visualizations.
 
 ### Step 3: Machine Learning
-Our group has chosen to use Chi-Square Value, Logistic Regression and Random Forest to analyse our chosen variables
+Our group has chosen to use Chi-Square Value, Logistic Regression and Random Forest to analyse and seek answers to our problem statements. Before proceeding, we used Chi-Square Value to find out the importance of each variable. We did this so as to get a feel of which variables to focus our attention on during Logistic Regression and Random Forest phase. We chose to use Logistic Regression to see the prediction accuracy and reliability of each variable that we picked and if there was a need to reinforce it by using another Machine Learning Model. Our findings showed that each variable had a weak prediction accuracy of around 0.4. Hence, we chose to use Random Forest Model since its algorithm compensates the weak predictions of multiple variables and decision trees. We decided not to use Decision Tree Model since it uses a single decision making process and does not best fit our wide range of variables that need to be considered. Please refer to the notebook for the details of our experimentation steps.
+
+### Step 4: Conclusion
+For this step, we used the results of Chi-Square value and Logistic Regression against our concluding results from the Random Forest Tree to find our answers. Our answer to the first problem statement, we found that the superstructure materials: Reinforced Concrete (RC) Non-engineered and Cement-Mortar Brick; are the most significant contributors to a building damage grade. In addition, they are joined by the foundation materials RC Engineered and Bamboo or Timber.
+
+For our second problem statement, building age **may** be a contributor to a building's damage grade. Random Forest showed that building age was a popular choice when chosen together with the "Superstructure Material" Set and on the other hand, it was not a popular choice when chosen together with the "Building Foundation" Set. Although, a caveat to keep in mind is that the accuracy of the Random Forest were around 0.4.
+
+To conclude, after going through the EDA and Machine Learning step. We believe that our data set has multiple categorical data to use, but does not have enough numerical data to help us get a better prediction of the damage grade. In reality, a building of any shape or size is prone to collapse or damage. Parameters such as number of floors and square feet area of the building's base are not good descriptors of a building and hence cannot be used as suitable predictors for damage grade.
 
 ---
 
@@ -65,3 +72,6 @@ Our group has chosen to use Chi-Square Value, Logistic Regression and Random For
 - https://www.datacamp.com/tutorial/random-forests-classifier-python
 - https://www.statology.org/plot-logistic-regression-in-python/
 - https://www.youtube.com/watch?v=v6VJ2RO66Ag
+- https://www.youtube.com/watch?v=InZ0n2knz1E
+- https://www.youtube.com/watch?v=6N9H9KxdZdk&t=37s
+- https://www.youtube.com/watch?v=sYZ2KfT7Ryc 
