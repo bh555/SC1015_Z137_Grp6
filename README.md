@@ -1,13 +1,13 @@
 # SC1015_Z137_Grp6
 For our Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence), we performed analysis on the structural data of buildings from the 2015 Gorkha earthquake in Nepal. (http://eq2015.klldev.org/#/download)
 
-## Problem Definition
-- Which building materials contribute to a building's damage grade?
-- Does building age contribute to a building's damage grade?
-
 Our chosen dataset is the 2015 Nepal Earthquake building structural damage and repair dataset. This dataset that we will be using was aimed to predict the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal. The Earthquake had a magnitude of 6.5, followed by an aftershock of roughly 5.0 magnitude. Our group's perspective is that earthquake's are costly and disastrous depending on the preparations made beforehand. If we do not prepare, it is highly unlikely that we might come out of the disaster unscathed. Through this project, we hope to understand the amount of damage caused by an earthquake based on the building material and foundation.
 
 We hope to be able to apply the findings of our project to help us predict the amount of damages caused by earthquakes depending on the condition of the building structure in the future. 
+
+## Problem Definition
+- Which building materials contribute to a building's damage grade?
+- Does building age contribute to a building's damage grade?
 
 ## Members
 -	Caren Tan Xin Yao
@@ -55,3 +55,6 @@ We hope to be able to apply the findings of our project to help us predict the a
 - logistic regression model
 
 ## References:
+- https://www.datacamp.com/tutorial/random-forests-classifier-python
+- https://www.statology.org/plot-logistic-regression-in-python/
+- https://www.youtube.com/watch?v=v6VJ2RO66Ag
