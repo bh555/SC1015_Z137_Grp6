@@ -14,12 +14,16 @@
 
 #### Note: The excel sheet is compressed into a zip file due to upload size constraints by Github.
 
-##  Algorithms & Libraries used:
+##  Libraries used:
 - [Graphviz](https://graphviz.org/download/) (Ensure to install both executable and python package.)
-- One-Hot Encoding (Using pandas .get_dummies)
-- Associations
-- Logistic Regression Model
-- Random Forest
+- Pandas
+- sklearn
+- numpy
+- seaborn
+- matplotlib
+- Dython
+- IPython
+- scipy
 
 ---
 
