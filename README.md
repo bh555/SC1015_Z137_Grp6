@@ -10,7 +10,6 @@
 ## Project Folder Includes
 1.	csv_building_structure.zip (Data set from [klldev.org](http://eq2015.klldev.org/#/download))
 2.	SC1015 Mini Project.ipynb
-3.	Powerpoint Slides
 
 #### Note: The excel sheet is compressed into a zip file due to upload size constraints by Github.
 
