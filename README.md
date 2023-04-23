@@ -79,3 +79,4 @@ To conclude, after going through the EDA and Machine Learning step. We believe t
 - https://www.youtube.com/watch?v=InZ0n2knz1E
 - https://www.youtube.com/watch?v=6N9H9KxdZdk&t=37s
 - https://www.youtube.com/watch?v=sYZ2KfT7Ryc 
+- https://neptune.ai/blog/performance-metrics-in-machine-learning-complete-guide
