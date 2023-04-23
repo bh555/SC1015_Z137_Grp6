@@ -12,6 +12,8 @@
 2.	SC1015 Mini Project.ipynb
 3.	Powerpoint Slides
 
+#### Note: The excel sheet is compressed into a zip file due to upload size constraints by Github.
+
 ##  Algorithms & Libraries used:
 - [Graphviz](https://graphviz.org/download/) (Ensure to install both executable and python package.)
 - One-Hot Encoding (Using pandas .get_dummies)
