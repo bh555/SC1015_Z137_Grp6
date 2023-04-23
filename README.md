@@ -8,7 +8,7 @@
 -	Lee Bohui
 
 ## Project Folder Includes
-1.	csv_building_structure.csv (Data set from [klldev.org](http://eq2015.klldev.org/#/download))
+1.	csv_building_structure.zip (Data set from [klldev.org](http://eq2015.klldev.org/#/download))
 2.	SC1015 Mini Project.ipynb
 3.	Powerpoint Slides
 
