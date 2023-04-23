@@ -1,6 +1,6 @@
 # SC1015 (Introduction to Data Science and Artificial Intelligence)
 # Lab Grp Z137, Team 6
-# Project Tilte: Analysis of 2015 Gorkha Earthquake in Nepal
+# Project Title: Analysis of 2015 Gorkha Earthquake in Nepal
 
 ## Members
 -	Caren Tan Xin Yao
@@ -82,3 +82,7 @@ To conclude, after going through the EDA and Machine Learning step. We believe t
 - https://www.youtube.com/watch?v=6N9H9KxdZdk&t=37s
 - https://www.youtube.com/watch?v=sYZ2KfT7Ryc 
 - https://neptune.ai/blog/performance-metrics-in-machine-learning-complete-guide
+- https://www.ibm.com/topics/underfitting
+- https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/
+- https://graphviz.readthedocs.io/en/stable/manual.html
+- http://eq2015.klldev.org/#/download
